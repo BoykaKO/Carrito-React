@@ -1,0 +1,41 @@
+.containerTable{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px outset #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+.table{
+    border-collapse: collapse;   
+    text-align: center;
+}
+tr,td,th{
+    border: 2px outset var(--backgroundColor);
+}
+thead{
+    font-weight: bold;
+}
+.btn-primary-confirm{
+    font-weight: bold;
+    display: block;
+    background-color: #e056fd;
+    border: 1px outset var(--backgroundColor);
+    margin: 10px 0;
+    width: 100%;
+}
+.btn-primary{
+    background-color: #e056fd;
+    border: 1px inset #fff; 
+}
+.total{
+    border: none;
+}
+@media (max-width:1016px){
+    .botones{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+
+}

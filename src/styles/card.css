@@ -1,0 +1,133 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    border: 1px outset #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 246, 246);
+    width: 80vw;
+  }
+  .tarjeta:hover{
+    box-shadow: 2px 3px 10px 5px black;
+    transition-duration: 0.5s;
+  }
+  
+  .tarjeta-imagen {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin: 0 auto;
+  }
+  .tarjeta-imagen:hover{
+    box-shadow: 2px 4px 22px 4px var(--backgroundColor);
+    transition-duration: 0.5s;
+
+  }
+  
+  .tarjeta-contenido {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+  }
+  
+  .tarjeta-titulo {
+    margin: 10px 0;
+  }
+  
+  .tarjeta-descripcion {
+    margin: 0;
+    margin-bottom: 10px;
+   
+
+  }
+  .containerDesc{
+    height: 10%;
+  }
+  
+  .tarjeta-precio {
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  .boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30vw;
+    
+  }
+  
+  .boton-agregar:hover {
+    background-color: #45a049;
+  }
+  .boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30vw;
+    margin: 5px ;
+  }
+  
+  .boton-quitar:hover {
+    background-color: #a04545;
+  }
+
+  
+  /* Estilos para el carrito */
+  .carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+@media (max-width:911px){
+  .tarjeta {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px outset #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 246, 246);
+    width: 80vw;
+  }
+  .boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30vw;
+    margin: 5px auto;
+  }
+  .boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30vw;
+    margin: 5px auto;
+    
+  }
+
+}

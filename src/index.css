@@ -1,0 +1,18 @@
+*{
+  --backgroundColor:#4c2e6f;
+  --navbar:#07010e;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundColor);
+}
+
+hr{
+  color: aliceblue;
+
+}
+h2{
+  color: aliceblue;
+}
